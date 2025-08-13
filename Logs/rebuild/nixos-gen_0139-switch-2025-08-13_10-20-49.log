@@ -1,0 +1,28 @@
+[1m[34mPulling latest changes...[0m
+Current branch main is up to date.
+
+[1m==================================================[0m
+
+[1m[34mStarting system rebuild...[0m
+Sudo rights already available
+
+[1m==================================================[0m
+
+Rebuild started: Mi 13. Aug 10:20:55 CEST 2025
+
+[1m==================================================[0m
+
+building the system configuration...
+updating GRUB 2 menu...
+activating the configuration...
+setting up /etc...
+reloading user units for peritia...
+restarting sysinit-reactivation.target
+the following new units were started: NetworkManager-dispatcher.service
+Done. The new configuration is /nix/store/25czq5flq1mfggr2qdxzfq1i5rfr1hbv-nixos-system-Test-VM-25.11.20250809.85dbfc7
+
+[32m[1mNixOS Rebuild Complete[0m
+[1m[36mSummary:[0m
+  Started:    2025-08-13 10:20:49
+  Duration:   16 sec
+  Generation: 0139
