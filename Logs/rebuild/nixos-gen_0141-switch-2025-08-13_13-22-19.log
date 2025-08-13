@@ -1,0 +1,61 @@
+[1m[34mPulling latest changes...[0m
+Already up to date.
+
+[1m==================================================[0m
+
+[1m[34mUpdating flake...[0m
+
+[1m==================================================[0m
+
+evaluating file '<nix/derivation-internal.nix>'
+evaluating file '/home/peritia/NixOS/flake.nix'
+evaluating file '/nix/store/yzamx7mva8mc4q4d39iyscdv3kr603m5-source/flake.nix'
+downloading 'https://api.github.com/repos/nix-community/home-manager/commits/HEAD'...
+evaluating file '«github:nix-community/home-manager/27a26be51ff0162a8f67660239f9407dba68d7c5»/flake.nix'
+evaluating file '/nix/store/dvq62jdpwhf8bmlrkwz2mqias33k9rnc-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/NixOS-95/commits/Beta-import'...
+evaluating file '«github:Peritia-System/NixOS-95/11686d0192ec5eca921786f45e0a7f6f0f471278»/flake.nix'
+evaluating file '/nix/store/9xdr6cflnb3ksxd2p03xvxvb6vfv8374-source/flake.nix'
+downloading 'https://api.github.com/repos/nixos/nixpkgs/commits/nixos-unstable'...
+evaluating file '«github:nixos/nixpkgs/85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054»/flake.nix'
+evaluating file '/nix/store/c39q7pww80997lz0fyqxpvsr29q6f7ld-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/Nyx-Tools/commits/Beta-test'...
+warning: error: unable to download 'https://api.github.com/repos/Peritia-System/Nyx-Tools/commits/Beta-test': HTTP error 422
+
+       response body:
+
+       {
+         "message": "No commit found for SHA: Beta-test",
+         "documentation_url": "https://docs.github.com/rest/commits/commits#get-a-commit",
+         "status": "422"
+       }; using cached version
+evaluating file '«github:Peritia-System/Nyx-Tools/d0435d4117ca2a7af688ab6ee1955d1464023a2c»/flake.nix'
+evaluating file '/nix/store/r6g79v89zhjhyvapk1f7k95dy8z1jkmx-source/flake.nix'
+
+[1m==================================================[0m
+
+[1m[34mStarting system rebuild...[0m
+Getting sudo ticket (please enter your password)
+root
+
+[1m==================================================[0m
+
+Rebuild started: Mi 13. Aug 13:22:23 CEST 2025
+
+[1m==================================================[0m
+
+building the system configuration...
+updating GRUB 2 menu...
+activating the configuration...
+setting up /etc...
+reloading user units for sddm...
+reloading user units for peritia...
+restarting sysinit-reactivation.target
+the following new units were started: NetworkManager-dispatcher.service
+Done. The new configuration is /nix/store/wiphbhamixn26v3j5s7iw3bi4k24bnm0-nixos-system-Test-VM-25.11.20250809.85dbfc7
+
+[32m[1mNixOS Rebuild Complete[0m
+[1m[36mSummary:[0m
+  Started:    2025-08-13 13:22:19
+  Duration:   15 sec
+  Generation: 0141
