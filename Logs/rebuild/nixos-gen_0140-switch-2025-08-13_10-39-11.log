@@ -1,0 +1,100 @@
+[1m[34mPulling latest changes...[0m
+Current branch main is up to date.
+
+[1m==================================================[0m
+
+[1m[34mUpdating flake...[0m
+
+[1m==================================================[0m
+
+evaluating file '<nix/derivation-internal.nix>'
+evaluating file '/home/peritia/NixOS/flake.nix'
+evaluating file '/nix/store/6s875j5klxfrdf7hmi2i7vhdybf8w2v9-source/flake.nix'
+downloading 'https://api.github.com/repos/nix-community/home-manager/commits/HEAD'...
+evaluating file '«github:nix-community/home-manager/27a26be51ff0162a8f67660239f9407dba68d7c5»/flake.nix'
+evaluating file '/nix/store/dvq62jdpwhf8bmlrkwz2mqias33k9rnc-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/NixOS-95/commits/Beta-import'...
+evaluating file '«github:Peritia-System/NixOS-95/11686d0192ec5eca921786f45e0a7f6f0f471278»/flake.nix'
+evaluating file '/nix/store/9xdr6cflnb3ksxd2p03xvxvb6vfv8374-source/flake.nix'
+downloading 'https://api.github.com/repos/nixos/nixpkgs/commits/nixos-unstable'...
+evaluating file '«github:nixos/nixpkgs/85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054»/flake.nix'
+evaluating file '/nix/store/c39q7pww80997lz0fyqxpvsr29q6f7ld-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/Nyx-Tools/commits/Beta-test'...
+unpacking 'github:Peritia-System/Nyx-Tools/27242887afde3a21582bb73f834373d322642874' into the Git cache...
+downloading 'https://github.com/Peritia-System/Nyx-Tools/archive/27242887afde3a21582bb73f834373d322642874.tar.gz'...
+evaluating file '«github:Peritia-System/Nyx-Tools/27242887afde3a21582bb73f834373d322642874»/flake.nix'
+evaluating file '/nix/store/8hxp57lpl0a9cgf9bqq3njhq5d0h7lix-source/flake.nix'
+warning: updating lock file '"/home/peritia/NixOS/flake.lock"':
+• Updated input 'nyx':
+    'github:Peritia-System/Nyx-Tools/f3d78f52a98c0c297180d7e17072d9ac736fa429?narHash=sha256-xrbe2S5X2rWdZBm3YA5DskfOAXdYOiH0iKljYfYjaBw%3D' (2025-08-13)
+  → 'github:Peritia-System/Nyx-Tools/27242887afde3a21582bb73f834373d322642874?narHash=sha256-gMKv5OL%2B6MtjxcrubiG/nYfG5E3GUNcIQWk4wKH1t3U%3D' (2025-08-13)
+evaluating file '/home/peritia/NixOS/flake.nix'
+
+[1m==================================================[0m
+
+[1m[34mStarting system rebuild...[0m
+Sudo rights already available
+
+[1m==================================================[0m
+
+Rebuild started: Mi 13. Aug 10:39:20 CEST 2025
+
+[1m==================================================[0m
+
+building the system configuration...
+these 19 derivations will be built:
+  /nix/store/f98mcxhjz2658n9l85q2pcp2z35nb123-home-manager-path.drv
+  /nix/store/21bwp1mixcdf9vm2nd3whxkl90xd1h42-hm_fontconfigconf.d10hmfonts.conf.drv
+  /nix/store/3zc8lrk7nysfxyp107cj1xrmd55azg4g-nyx-info.drv
+  /nix/store/8mc40wd4knshwi1dyn17ds9lybci95lf-system-path.drv
+  /nix/store/ydfsjff524qp3np7n5mdvz5swgxhykb4-dbus-1.drv
+  /nix/store/irjwx5sjzmli1smbb20x0lx95scfsvhi-X-Restart-Triggers-dbus.drv
+  /nix/store/3qr7avxrqsrrl16n6nzhmg6s88w7b511-unit-dbus.service.drv
+  /nix/store/51q3b1zygwi340bp46d1c4qxsg54qy2y-user-environment.drv
+  /nix/store/xiazp62fr0jysidzawgv3j4bs78fdd1l-user-units.drv
+  /nix/store/61sf9p83di5llv2gmy599c67zy4iq6yg-X-Restart-Triggers-polkit.drv
+  /nix/store/dzf6nza75ilbqw8wzzsib15qnsma7841-unit-polkit.service.drv
+  /nix/store/p00djp7jxv6n2i93zxb5aqf6q8gkjs1l-unit-accounts-daemon.service.drv
+  /nix/store/s2b7s48zk0cb4zp7jmavzg3cfmisnaj8-unit-dbus.service.drv
+  /nix/store/y0k9ja2qixx8yj4alhpxkzdvx1fyhzhl-home-manager-files.drv
+  /nix/store/fzfnxa1gqs8is7jqb6biar58vszawr85-home-manager-generation.drv
+  /nix/store/yh10jqdv7gf5b064a1bw6fi28djxmfkn-unit-home-manager-peritia.service.drv
+  /nix/store/yfr1lfg61dm3h1xln4i94p2bfb4f5g5z-system-units.drv
+  /nix/store/6dgk2m7syhyw4x0lnn0mjnanw0mig81i-etc.drv
+  /nix/store/42lbsd39mgjaz5x68l4k5rsxv1sv8w93-nixos-system-Test-VM-25.11.20250809.85dbfc7.drv
+building '/nix/store/3zc8lrk7nysfxyp107cj1xrmd55azg4g-nyx-info.drv'...
+building '/nix/store/f98mcxhjz2658n9l85q2pcp2z35nb123-home-manager-path.drv'...
+building '/nix/store/8mc40wd4knshwi1dyn17ds9lybci95lf-system-path.drv'...
+building '/nix/store/21bwp1mixcdf9vm2nd3whxkl90xd1h42-hm_fontconfigconf.d10hmfonts.conf.drv'...
+building '/nix/store/51q3b1zygwi340bp46d1c4qxsg54qy2y-user-environment.drv'...
+building '/nix/store/y0k9ja2qixx8yj4alhpxkzdvx1fyhzhl-home-manager-files.drv'...
+building '/nix/store/fzfnxa1gqs8is7jqb6biar58vszawr85-home-manager-generation.drv'...
+building '/nix/store/61sf9p83di5llv2gmy599c67zy4iq6yg-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/ydfsjff524qp3np7n5mdvz5swgxhykb4-dbus-1.drv'...
+building '/nix/store/p00djp7jxv6n2i93zxb5aqf6q8gkjs1l-unit-accounts-daemon.service.drv'...
+building '/nix/store/yh10jqdv7gf5b064a1bw6fi28djxmfkn-unit-home-manager-peritia.service.drv'...
+building '/nix/store/dzf6nza75ilbqw8wzzsib15qnsma7841-unit-polkit.service.drv'...
+building '/nix/store/irjwx5sjzmli1smbb20x0lx95scfsvhi-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/3qr7avxrqsrrl16n6nzhmg6s88w7b511-unit-dbus.service.drv'...
+building '/nix/store/s2b7s48zk0cb4zp7jmavzg3cfmisnaj8-unit-dbus.service.drv'...
+building '/nix/store/xiazp62fr0jysidzawgv3j4bs78fdd1l-user-units.drv'...
+building '/nix/store/yfr1lfg61dm3h1xln4i94p2bfb4f5g5z-system-units.drv'...
+building '/nix/store/6dgk2m7syhyw4x0lnn0mjnanw0mig81i-etc.drv'...
+building '/nix/store/42lbsd39mgjaz5x68l4k5rsxv1sv8w93-nixos-system-Test-VM-25.11.20250809.85dbfc7.drv'...
+updating GRUB 2 menu...
+stopping the following units: accounts-daemon.service
+activating the configuration...
+setting up /etc...
+reloading user units for peritia...
+restarting sysinit-reactivation.target
+reloading the following units: dbus.service
+restarting the following units: polkit.service
+starting the following units: accounts-daemon.service
+the following new units were started: NetworkManager-dispatcher.service
+Done. The new configuration is /nix/store/jxfzh462bi28qj3751vgjvlh33v202pj-nixos-system-Test-VM-25.11.20250809.85dbfc7
+
+[32m[1mNixOS Rebuild Complete[0m
+[1m[36mSummary:[0m
+  Started:    2025-08-13 10:39:11
+  Duration:   26 sec
+  Generation: 0140
