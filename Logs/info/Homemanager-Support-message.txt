@@ -1,5 +1,5 @@
 -----Acknowledged-----
-false
+true
 -----BEGIN INFO-----
 
 Please note that I will soon switch Nyx from a Home Manager module to a NixOS module.
