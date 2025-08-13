@@ -12,7 +12,7 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    nyx.url = "github:Peritia-System/Nyx-Tools/Beta-test";
+    nyx.url = "github:Peritia-System/Nyx-Tools/beta";
     nyx.inputs.nixpkgs.follows = "nixpkgs";
 
     nixos95.url = "github:Peritia-System/NixOS-95/Beta-import";
