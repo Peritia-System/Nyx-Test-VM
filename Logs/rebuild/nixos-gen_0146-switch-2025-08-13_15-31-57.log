@@ -1,0 +1,89 @@
+[1m[34mPulling latest changes...[0m
+Current branch main is up to date.
+
+[1m==================================================[0m
+
+[1m[34mUpdating flake...[0m
+
+[1m==================================================[0m
+
+evaluating file '<nix/derivation-internal.nix>'
+evaluating file '/home/peritia/NixOS/flake.nix'
+evaluating file '/nix/store/f346knsq2bx37wygc858jpjwd3anzaaz-source/flake.nix'
+downloading 'https://api.github.com/repos/nix-community/home-manager/commits/HEAD'...
+evaluating file '«github:nix-community/home-manager/27a26be51ff0162a8f67660239f9407dba68d7c5»/flake.nix'
+evaluating file '/nix/store/dvq62jdpwhf8bmlrkwz2mqias33k9rnc-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/NixOS-95/commits/Beta-import'...
+evaluating file '«github:Peritia-System/NixOS-95/11686d0192ec5eca921786f45e0a7f6f0f471278»/flake.nix'
+evaluating file '/nix/store/9xdr6cflnb3ksxd2p03xvxvb6vfv8374-source/flake.nix'
+downloading 'https://api.github.com/repos/nixos/nixpkgs/commits/nixos-unstable'...
+evaluating file '«github:nixos/nixpkgs/85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054»/flake.nix'
+evaluating file '/nix/store/c39q7pww80997lz0fyqxpvsr29q6f7ld-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/Nyx-Tools/commits/beta'...
+unpacking 'github:Peritia-System/Nyx-Tools/0e9e294cb070101795c900b6516168ce30e74b3d' into the Git cache...
+downloading 'https://github.com/Peritia-System/Nyx-Tools/archive/0e9e294cb070101795c900b6516168ce30e74b3d.tar.gz'...
+evaluating file '«github:Peritia-System/Nyx-Tools/0e9e294cb070101795c900b6516168ce30e74b3d»/flake.nix'
+evaluating file '/nix/store/8k4242yncql0jv9yq9dkdy0jfx7rw61g-source/flake.nix'
+warning: updating lock file '"/home/peritia/NixOS/flake.lock"':
+• Updated input 'nyx':
+    'github:Peritia-System/Nyx-Tools/b528969aae114133cc8f9a32c35da333a58c010e?narHash=sha256-1GnxsDXxOBgPrGuu8kbK8ZEy5Gy3IsY16d8%2B3eh/60s%3D' (2025-08-13)
+  → 'github:Peritia-System/Nyx-Tools/0e9e294cb070101795c900b6516168ce30e74b3d?narHash=sha256-xRVoZgYJY/BkL/HBfAwgYEZhuYZpwvf9VG2bi4qmtUw%3D' (2025-08-13)
+evaluating file '/home/peritia/NixOS/flake.nix'
+
+[1m==================================================[0m
+
+[1m[34mStarting system rebuild...[0m
+Sudo rights already available
+
+[1m==================================================[0m
+
+Rebuild started: Mi 13. Aug 15:32:05 CEST 2025
+
+[1m==================================================[0m
+
+building the system configuration...
+these 13 derivations will be built:
+  /nix/store/1hic64cgcaj08yrk4i43845j1h63fwnk-nyx-rebuild.drv
+  /nix/store/56v9i8k0gh2wg02vhg4w12w5bkg61y9w-system-path.drv
+  /nix/store/ykb3xa7jsngpcak1yxs1x66vs0nl9yab-dbus-1.drv
+  /nix/store/09144jq17rbpr1s6vf0f2z1cv5jkv897-X-Restart-Triggers-dbus.drv
+  /nix/store/b0dsg0z7iy2694ygx9j2j987lfqvjf4q-unit-accounts-daemon.service.drv
+  /nix/store/byrn576zjmybfqmqi0hqz1m0h70rf9m1-X-Restart-Triggers-polkit.drv
+  /nix/store/qwi2l4d7p4y0lkzp7zh06sd470wm9hdy-unit-dbus.service.drv
+  /nix/store/mhay3129qq8xvbc1k2rijsjw20jn91yb-user-units.drv
+  /nix/store/l073bxfyc88ifhmn693al2650hp26mpa-unit-polkit.service.drv
+  /nix/store/sqy14wdvqmfaa6kyvz2cnxzql0jlscma-unit-dbus.service.drv
+  /nix/store/mrfil3jcn53n23g7qy9cpq32pbilvf8v-system-units.drv
+  /nix/store/chr6nfhwfk08768hnqcwpdkx7qbivhyp-etc.drv
+  /nix/store/kfjbqv6f4ni6f780f9y6w44vj0665l6j-nixos-system-Test-VM-25.11.20250809.85dbfc7.drv
+building '/nix/store/1hic64cgcaj08yrk4i43845j1h63fwnk-nyx-rebuild.drv'...
+building '/nix/store/56v9i8k0gh2wg02vhg4w12w5bkg61y9w-system-path.drv'...
+building '/nix/store/byrn576zjmybfqmqi0hqz1m0h70rf9m1-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/ykb3xa7jsngpcak1yxs1x66vs0nl9yab-dbus-1.drv'...
+building '/nix/store/b0dsg0z7iy2694ygx9j2j987lfqvjf4q-unit-accounts-daemon.service.drv'...
+building '/nix/store/09144jq17rbpr1s6vf0f2z1cv5jkv897-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/l073bxfyc88ifhmn693al2650hp26mpa-unit-polkit.service.drv'...
+building '/nix/store/qwi2l4d7p4y0lkzp7zh06sd470wm9hdy-unit-dbus.service.drv'...
+building '/nix/store/sqy14wdvqmfaa6kyvz2cnxzql0jlscma-unit-dbus.service.drv'...
+building '/nix/store/mhay3129qq8xvbc1k2rijsjw20jn91yb-user-units.drv'...
+building '/nix/store/mrfil3jcn53n23g7qy9cpq32pbilvf8v-system-units.drv'...
+building '/nix/store/chr6nfhwfk08768hnqcwpdkx7qbivhyp-etc.drv'...
+building '/nix/store/kfjbqv6f4ni6f780f9y6w44vj0665l6j-nixos-system-Test-VM-25.11.20250809.85dbfc7.drv'...
+updating GRUB 2 menu...
+stopping the following units: accounts-daemon.service
+activating the configuration...
+setting up /etc...
+reloading user units for sddm...
+reloading user units for peritia...
+restarting sysinit-reactivation.target
+reloading the following units: dbus.service
+restarting the following units: polkit.service
+starting the following units: accounts-daemon.service
+the following new units were started: NetworkManager-dispatcher.service
+Done. The new configuration is /nix/store/3gqls2yixb7h8kbi5ah4qzsac0z49gaz-nixos-system-Test-VM-25.11.20250809.85dbfc7
+
+[32m[1mNixOS Rebuild Complete[0m
+[1m[36mSummary:[0m
+  Started:    2025-08-13 15:31:57
+  Duration:   26 sec
+  Generation: 0146
