@@ -1,0 +1,79 @@
+[1m[34mPulling latest changes...[0m
+Already up to date.
+
+[1m==================================================[0m
+
+[1m[34mUpdating flake...[0m
+
+[1m==================================================[0m
+
+evaluating file '<nix/derivation-internal.nix>'
+evaluating file '/home/peritia/NixOS/flake.nix'
+evaluating file '/nix/store/gqjk45sr9ppygnszdkk2mhpmk9l9x95z-source/flake.nix'
+downloading 'https://api.github.com/repos/nix-community/home-manager/commits/HEAD'...
+evaluating file '«github:nix-community/home-manager/27a26be51ff0162a8f67660239f9407dba68d7c5»/flake.nix'
+evaluating file '/nix/store/dvq62jdpwhf8bmlrkwz2mqias33k9rnc-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/NixOS-95/commits/Beta-import'...
+evaluating file '«github:Peritia-System/NixOS-95/11686d0192ec5eca921786f45e0a7f6f0f471278»/flake.nix'
+evaluating file '/nix/store/9xdr6cflnb3ksxd2p03xvxvb6vfv8374-source/flake.nix'
+downloading 'https://api.github.com/repos/nixos/nixpkgs/commits/nixos-unstable'...
+evaluating file '«github:nixos/nixpkgs/85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054»/flake.nix'
+evaluating file '/nix/store/c39q7pww80997lz0fyqxpvsr29q6f7ld-source/flake.nix'
+downloading 'https://api.github.com/repos/Peritia-System/Nyx-Tools/commits/Beta-test'...
+unpacking 'github:Peritia-System/Nyx-Tools/104bc5782ab2a6c448f63eedb352b353d7d058b8' into the Git cache...
+downloading 'https://github.com/Peritia-System/Nyx-Tools/archive/104bc5782ab2a6c448f63eedb352b353d7d058b8.tar.gz'...
+evaluating file '«github:Peritia-System/Nyx-Tools/104bc5782ab2a6c448f63eedb352b353d7d058b8»/flake.nix'
+evaluating file '/nix/store/1agi7rd3inca9add770vslfpy1aah2x9-source/flake.nix'
+warning: updating lock file '"/home/peritia/NixOS/flake.lock"':
+• Updated input 'nyx':
+    'github:Peritia-System/Nyx-Tools/9d5dca48330788edfeab3a10a3d4ec21030a01db?narHash=sha256-MsNJbLZdmxMmB633Kt3yGeB0ZO%2BM17PScuHzpoUX1Yk%3D' (2025-08-13)
+  → 'github:Peritia-System/Nyx-Tools/104bc5782ab2a6c448f63eedb352b353d7d058b8?narHash=sha256-PH7vJh8fwlyDd/kglxI65EUOjWOztknm5TaIXYdRuqY%3D' (2025-08-13)
+evaluating file '/home/peritia/NixOS/flake.nix'
+
+[1m==================================================[0m
+
+[1m[34mStarting system rebuild...[0m
+Getting sudo ticket (please enter your password)
+root
+
+[1m==================================================[0m
+
+Rebuild started: Mi 13. Aug 10:17:52 CEST 2025
+
+[1m==================================================[0m
+
+building the system configuration...
+these 10 derivations will be built:
+  /nix/store/nima8r78rx7165c0xmapn6d9388k9z8a-nyx-info.drv
+  /nix/store/r91jsna4v3dw3vm4ps4gqaa4xdsqccy7-home-manager-path.drv
+  /nix/store/kra84xa0jww4vcvfg5cmr0b87z8h78vi-hm_fontconfigconf.d10hmfonts.conf.drv
+  /nix/store/9ch077l8c44sj928ljfj3fca45zdc8w9-home-manager-files.drv
+  /nix/store/6q3b7i52m3jip48jrj0s9w126jqlji80-home-manager-generation.drv
+  /nix/store/9n2dyks0y2dplwj1sccmv8ki8cisqd6z-unit-home-manager-peritia.service.drv
+  /nix/store/ilqjmjjl00idp0lakz6m3wdnd6l4krbj-system-units.drv
+  /nix/store/zy3ai8wc4janmxh0sg2ligs84lkp2977-user-environment.drv
+  /nix/store/j769bh5cigb9ijs42zii73rvjk1zaxri-etc.drv
+  /nix/store/sacss1l39x0pkz8bzing87s9p1b82ffx-nixos-system-Test-VM-25.11.20250809.85dbfc7.drv
+building '/nix/store/nima8r78rx7165c0xmapn6d9388k9z8a-nyx-info.drv'...
+building '/nix/store/r91jsna4v3dw3vm4ps4gqaa4xdsqccy7-home-manager-path.drv'...
+building '/nix/store/kra84xa0jww4vcvfg5cmr0b87z8h78vi-hm_fontconfigconf.d10hmfonts.conf.drv'...
+building '/nix/store/zy3ai8wc4janmxh0sg2ligs84lkp2977-user-environment.drv'...
+building '/nix/store/9ch077l8c44sj928ljfj3fca45zdc8w9-home-manager-files.drv'...
+building '/nix/store/6q3b7i52m3jip48jrj0s9w126jqlji80-home-manager-generation.drv'...
+building '/nix/store/9n2dyks0y2dplwj1sccmv8ki8cisqd6z-unit-home-manager-peritia.service.drv'...
+building '/nix/store/ilqjmjjl00idp0lakz6m3wdnd6l4krbj-system-units.drv'...
+building '/nix/store/j769bh5cigb9ijs42zii73rvjk1zaxri-etc.drv'...
+building '/nix/store/sacss1l39x0pkz8bzing87s9p1b82ffx-nixos-system-Test-VM-25.11.20250809.85dbfc7.drv'...
+updating GRUB 2 menu...
+activating the configuration...
+setting up /etc...
+reloading user units for peritia...
+restarting sysinit-reactivation.target
+the following new units were started: NetworkManager-dispatcher.service
+Done. The new configuration is /nix/store/32dqgzz3nhlbcmdvjc05zqn423almq8c-nixos-system-Test-VM-25.11.20250809.85dbfc7
+
+[32m[1mNixOS Rebuild Complete[0m
+[1m[36mSummary:[0m
+  Started:    2025-08-13 10:17:41
+  Duration:   26 sec
+  Generation: 0138
