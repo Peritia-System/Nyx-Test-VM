@@ -29,10 +29,9 @@ in {
     ../../../Modules/Hardware/Bluetooth/bluetooth.nix
 
 
+    inputs.nyx.nixosModules.default
     
     # nixos95
-    #inputs.nyx.homeManagerModules.default
-    inputs.nyx.nixosModules.default
     inputs.nixos95.nixosModules.default
 
   ];
