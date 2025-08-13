@@ -36,7 +36,7 @@ in {
     # Extended Retro theme
 #    ../../../../Modules/Desktops/XFCE-retro
 
-    inputs.nyx.homeManagerModules.default
+#    inputs.nyx.homeManagerModules.default
  
   ];
 
@@ -79,45 +79,6 @@ in {
     entra.enable = false;
   };
 
-  ################################################################
-  # Nyx Tools Configuration
-  ################################################################
-
-  ################################################################
-  # Nyx Tools Configuration
-  ################################################################
-
-nyx = {
-  # Global settings
-  enable       = true;
-  username     = username;
-  nixDirectory = nixDirectory;
-  logDir       = "${nixDirectory}/Logs";
-  autoPush     = true;
-
-  # Tool-specific settings
-  nyx-rebuild = {
-    enable           = true;
-    formatter        = "alejandra";
-    enableFormatting = false;
-    editor           = "nvim";
-    startEditor      = false;
-    enableAlias      = false;
-  };
-
-  nyx-cleanup = {
-    enable          = true;
-    keepGenerations = 5;
-    enableAlias     = false;
-  };
-  nyx-tui = {
-    enable          = true;
-    enableAlias     = false;
-  };
-  nyx-tool = {
-    enable = true;
-  };
-};
 
 
 
