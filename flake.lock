@@ -64,11 +64,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1755091826,
-        "narHash": "sha256-1GnxsDXxOBgPrGuu8kbK8ZEy5Gy3IsY16d8+3eh/60s=",
+        "lastModified": 1755091910,
+        "narHash": "sha256-xRVoZgYJY/BkL/HBfAwgYEZhuYZpwvf9VG2bi4qmtUw=",
         "owner": "Peritia-System",
         "repo": "Nyx-Tools",
-        "rev": "b528969aae114133cc8f9a32c35da333a58c010e",
+        "rev": "0e9e294cb070101795c900b6516168ce30e74b3d",
         "type": "github"
       },
       "original": {
