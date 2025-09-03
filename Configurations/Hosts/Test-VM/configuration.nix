@@ -34,6 +34,9 @@ in {
     # nixos95
     inputs.nixos95.nixosModules.default
 
+    inputs.nyx-modules.nixosModules.default
+
+
   ];
 
 

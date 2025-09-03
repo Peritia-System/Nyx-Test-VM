@@ -20,6 +20,13 @@
     nixos95.inputs.nixpkgs.follows = "nixpkgs";
     #nixosModules.nixos95 = import ./nixos95;
 
+   # Nyx modules (system + home)
+    nyx-modules = {
+      url = "github:Peritia-System/Nyx-Modules";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+    };
+
   };
 
   ################################################################
@@ -29,6 +36,7 @@
     self,
     nixpkgs,
     home-manager,
+    nyx-modules,
     nyx,
     nixos95,
     ...
